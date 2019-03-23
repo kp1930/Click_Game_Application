@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rLayout"
+    android:background="#3a80D6"
+    android:padding="16dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentEnd="true"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFF"/>
+
+</RelativeLayout>

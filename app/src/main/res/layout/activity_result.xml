@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lLayout"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#3A80D6"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/buttonPlayAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_again"/>
+
+    <TextView
+        android:id="@+id/textViewBestScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/best_score"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewBestScoreNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Click Game</string>
+    <string name="time">Time</string>
+    <string name="score">Score</string>
+    <string name="play">Play</string>
+    <string name="play_again">Play Again</string>
+    <string name="best_score">Best Score</string>
+    <string name="_0">0</string>
+</resources>
